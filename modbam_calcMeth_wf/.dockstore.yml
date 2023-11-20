@@ -1,0 +1,9 @@
+version: 1.2
+workflows:
+  - name: modbam_calcmeth
+    subclass: WDL
+    description: Calculates haplotype-specific average percent modification per region, and additional stats, using modbamtools.
+    primaryDescriptorPath: /workflow.wdl
+    authors:
+      - name: Shloka Negi
+        email: shnegi@ucsc.edu
