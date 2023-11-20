@@ -1,0 +1,6 @@
+{
+    "vcfeval_wf.SRS_VCF": "sample_srs_chr1_10000_60000.vcf.gz",
+    "vcfeval_wf.LRS_VCF": "sample_lrs_chr1_10000_60000.vcf.gz",
+    "vcfeval_wf.SAMPLE": "sample",
+    "vcfeval_wf.REF": "test_ref.fasta"
+}
