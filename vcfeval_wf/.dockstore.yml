@@ -1,0 +1,9 @@
+version: 1.2
+workflows:
+  - name: vcfeval
+    subclass: WDL
+    description: Runs vcfeval of 2 VCFs (example - short-read and long-read VCFs)
+    primaryDescriptorPath: /workflow.wdl
+    authors:
+      - name: Shloka Negi
+        email: shnegi@ucsc.edu
